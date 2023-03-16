@@ -5,6 +5,7 @@
 <head>
 
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Sprint Challenge - Home</title>
   <link rel="stylesheet" href="css/index.css" />
@@ -23,16 +24,25 @@
 
         <!-- nav -->
         <nav>
-          <button><a href="menu.html">Menu</a></button>
-          <button><a href="">Reservations</a></button>
-          <button><a href="">Special Offers</a></button>
-          <button><a href="">Contact</a></button>
+          <div>
+            <button><a href="menu.html">Menu</a></button>
+            <button><a href="about.html">Reservations</a></button>
+            <button><a href="projects.html">Special Offers</a></button>
+            <button><a href="contact.html">Contact</a></button>
+          </div>
+          <div>
+            <div>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
         </nav>
-        <div class="social-icons">
-          <a><i class="fa-brands fa-facebook" name="Facebook"></i></a>
-          <a><i class="fa-brands fa-twitter" name="Twitter"></i></a>
-          <a><i class="fa-brands fa-instagram" name="Instagram"></i></a>
-        </div>
+      </div>
     </header>
 
     <!-- gallery section -->
@@ -129,13 +139,13 @@
     <footer>
 
       <!-- email signup -->
+      <div>
+        <h2>Join our mailing list!</h2>
+        <div>
+          <input placeholder="Email Address" /><button>Sign Up</button>
+        </div>
+      </div>
 
-      <form class="email-signup-form">
-        Join our mailing list!
-        <label for="email"></label>
-        <input type="email" id="email" name="email" placeholder="email address">
-        <input type="submit" value="Sign Up">
-      </form>
       <!-- nav -->
       <nav class="footer-nav">
         <button><a href="menu.html">Menu</a></button>
